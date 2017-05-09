@@ -12,7 +12,7 @@ resource "ibmcloud_cs_cluster" "testacc_cluster" {
     public_vlan_id = "vlan"
     private_vlan_id = "vlan"
     workers = [{name="worker1",  action="add"},]
-    org_guid = "davetropeano@us.ibm.com"
-	space_guid = "dev"
-	account_guid = "davetropeano@us.ibm.com"
+    org_guid = "a9a870d8-ea0a-4bb0-9fa7-b4c065f38e2c"
+	space_guid = "84c26baa-1e8d-44e1-9e53-3ed9a2755eb3"
+	account_guid = "48fcf7b82234c9a3f64ac55471beb2f0"
 }
