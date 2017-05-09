@@ -1,7 +1,7 @@
 provider "ibmcloud" {
- ibmid = "vkalangu@in.ibm.com"
- ibmid_password = ""
-  softlayer_account_number = "xxx"
+  ibmid = "${var.ibmid}"
+  ibmid_password = "${var.ibmidpw}"
+  softlayer_account_number = "${var.slaccountnum}"
 }
 
 resource "ibmcloud_cs_cluster" "testacc_cluster" {
